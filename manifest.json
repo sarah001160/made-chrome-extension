@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Run Snippet",
+  "version": "1.0",
+  "description": "自動在特定網頁執行 JavaScript",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://law.moj.gov.tw/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Auto Run"
+  }
+}
